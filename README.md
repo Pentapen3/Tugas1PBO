@@ -40,9 +40,7 @@ lebih rinci tersedia pada README di masing-masing folder tugas.
 
 ### Deskripsi Tugas
 
-Program ini menggunakan class `iPhone` sebagai cetak biru object. Dua object
-iPhone dibuat dengan warna dan kapasitas penyimpanan yang berbeda, kemudian
-informasinya ditampilkan melalui method `getColor()` dan `getStorage()`.
+Pada tugas ini, class iPhone berfungsi sebagai template untuk membentuk object. Dibuat dua object iPhone yang warna dan kapasitas penyimpanannya berlainan, kemudian keduanya dicetak datanya dengan memanggil method getColor() dan getStorage().
 
 ### Screenshot Hasil Run
 
@@ -60,9 +58,7 @@ informasinya ditampilkan melalui method `getColor()` dan `getStorage()`.
 
 ### Deskripsi Tugas
 
-Program ini menerapkan encapsulation pada class `Mahasiswa`. Property
-`nama`, `nim`, dan `umur` dibuat `private`, sehingga akses dan perubahan data
-dilakukan melalui getter dan setter.
+Tugas ini mendemonstrasikan encapsulation lewat class Mahasiswa. Property nama, nim, dan umur disembunyikan dengan modifier private, jadi data tersebut hanya dapat dibaca atau diubah melalui getter dan setter.
 
 ### Screenshot Hasil Run
 
@@ -80,9 +76,7 @@ dilakukan melalui getter dan setter.
 
 ### Deskripsi Tugas
 
-Program ini menerapkan inheritance dan method overriding melalui dua contoh.
-Class `BangunDatar` diwarisi oleh `Lingkaran`, `Persegi`, dan `Segitiga`.
-Selain itu, class `MahasiswaInternational` mewarisi class `Mahasiswa`.
+Konsep inheritance dan method overriding dipraktikkan dalam dua kasus. Kasus pertama adalah class BangunDatar yang menurunkan sifatnya ke Lingkaran, Persegi, dan Segitiga. Kasus kedua adalah class MahasiswaInternational yang merupakan turunan dari class Mahasiswa.
 
 ### Screenshot Hasil Run
 
@@ -104,9 +98,7 @@ Selain itu, class `MahasiswaInternational` mewarisi class `Mahasiswa`.
 
 ### Deskripsi Tugas
 
-Program ini menerapkan inheritance dan polimorfisme pada class `Handphone`.
-Class `Smartphone` dan `FeaturePhone` mewarisi `Handphone`, kemudian
-mengubah perilaku method `nyalakan()`, `matikan()`, dan `telepon()`.
+Tugas ini memperlihatkan inheritance dan polimorfisme dengan class Handphone sebagai induk. Class Smartphone dan FeaturePhone menurunkan Handphone, lalu masing-masing menulis ulang method nyalakan(), matikan(), dan telepon() sesuai karakteristiknya.
 
 ### Screenshot Hasil Run
 
@@ -124,8 +116,7 @@ mengubah perilaku method `nyalakan()`, `matikan()`, dan `telepon()`.
 
 ### Deskripsi Tugas
 
-Program ini menerapkan hubungan antar-object menggunakan tiga jenis relasi,
-yaitu asosiasi, agregasi, dan komposisi.
+Tugas ini membahas cara object saling berhubungan melalui tiga bentuk relasi: asosiasi, agregasi, dan komposisi.
 
 ### Screenshot Hasil Run
 
@@ -143,9 +134,7 @@ yaitu asosiasi, agregasi, dan komposisi.
 
 ### Deskripsi Tugas
 
-Program ini menerapkan abstract class dan interface. Abstract class `Vehicle`
-menjadi parent class untuk berbagai jenis kendaraan, sedangkan interface
-`Movable` dan `Fuelable` menentukan kemampuan yang dapat dimiliki object.
+Tugas ini memakai abstract class dan interface. Abstract class Vehicle menjadi induk bagi beberapa jenis kendaraan, sementara interface Movable dan Fuelable mendefinisikan kemampuan yang bisa dimiliki oleh suatu object.
 
 ### Screenshot Hasil Run
 
